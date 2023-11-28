@@ -142,7 +142,7 @@ let users = [
 //     - користувачів зі статусом true
 for (let j = 0; j < users.length; j++) {
     const user = users[j];
-    if(user.status === true){
+    if(user.status){
         document.write(`<div>`+`${user.name}` + `${user.age}` + `${user.status}`+`</div>`)
     }
 }
@@ -151,7 +151,7 @@ document.write(`<hr>`)
 // - користувачів зі статусом false
 for (let j = 0; j < users.length; j++) {
     const user = users[j];
-    if (user.status !== true){
+    if (!user.status){
         document.write(`<div>`+`${user.name}`+`${user.age}`+`${user.status}`+`</div>`)
     }
 
