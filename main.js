@@ -13,13 +13,13 @@ document.write(`<hr>`)
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 let i = 0;
 while (i<20){
-    document.write(`<div>`+"lorem ipsum"+`</div>`)
+    document.write(`<h1>`+"lorem ipsum"+`</h1>`)
     i++
 }
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
  i = 0;
 while (i<20){
-    document.write(`<div>`+"lorem ipsum" +`${[i]}`+`</div>`)
+    document.write(`<h1>`+"lorem ipsum" +`${[i]}`+`</h1>`)
     i++
 }
 document.write(`<hr>`)
